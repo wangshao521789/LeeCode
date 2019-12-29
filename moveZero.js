@@ -10,7 +10,7 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var moveZeroes = function(nums) {
-  // 先找到所有不为零的选项将它们保存在一个新数组中，然后让新数组中的所有部位零的选项都放在原数组的前面，再把原数组后面的选项都设为零那么就实现了移动零
+  // 先找到所有不为零的选项将它们保存在一个新数组中，然后让新数组中的所有不为零的选项都放在原数组的前面，再把原数组后面的选项都设为零那么就实现了移动零
   /**
      let nozeroNums = nums.filter(e => e != 0);
       nums.forEach((e, i) => {
